@@ -1,0 +1,233 @@
+
+@import url(/css/general/style.css) all;
+
+
+
+
+.hero-section{
+    margin: 14em 15em 2em 15em;
+}
+.hero-section .top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-section .top h1{
+    font-size: 300%;
+    font-weight: 600;
+}
+.hero-section .top .name{
+
+    background: var(--gradient-button);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+}
+.hero-section .top .info{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 40em;
+}
+.hero-section .top img{
+    padding: 2px;
+    background: #fff;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+}
+
+.hero-section .top .info p{
+    margin-top: 1.5em;
+}
+
+.hero-section .link{
+    margin-top: 3em;
+}
+.hero-section .link a{
+    padding: 20px 40px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 15px;
+    border-radius: 30px;
+    background: var(--gradient-button);
+    transition: .5s ease-out;
+}
+.hero-section .link a:hover{
+    background: linear-gradient(to right, #18dcff, rgb(11, 84, 102), #7f11aa);
+}
+
+
+
+
+
+
+
+.projects{
+    margin: 8em 20em 2em 20em;
+}
+.projects .top p,
+.technologies .top p,
+.about-me .top p{
+    font-size: var(--headingText);
+    font-weight: 600;
+}
+
+.card-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 4em;
+}
+.card-holder .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    height: 30em;
+    width: 100%;
+}
+.card-holder .cards .card1{
+    height: 100%;
+    width: 100%;
+    padding: 1.5em;
+    border-radius:25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+    border: .2px dotted #aaa;
+    cursor: pointer;
+}
+.card-holder .cards .card1:hover{
+    border: .5px solid var(--border-color);
+}
+.card-holder .cards .card1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-holder .cards .card1 .github-link{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+}
+.card-holder .cards .card1 a{
+    color: var(--text-color);
+    text-decoration: none;
+    background: var(--gradient-button);
+    padding: 15px 25px;
+    border-radius: 15px;
+    transition: .5s ease-out;
+    font-size: 90%;
+    text-align: left;
+}
+.card-holder .cards .card1 a:hover{
+    background: transparent;
+    border: .5px solid #fff;
+}
+.card-holder .cards .card1 p{
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+.technologies,
+.about-me,
+footer{
+    margin: 8em 15em 2em 15em;
+}
+.tech-skills{
+    margin-top: 4em;
+}
+.technologies .tech-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.technologies .tech-skills .lang-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.technologies .tech-skills .lang-holder:hover{
+    border: .5px dotted #aaa;
+}
+.technologies .tech-skills .lang-holder .level{
+    font-size: 80%;
+    opacity: 0;
+}
+.technologies .tech-skills .lang-holder .lang{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.technologies .tech-skills .lang-holder .lang p{
+    font-weight: 700;
+}
+.technologies .tech-skills .lang-holder .lang div{
+    margin-top: 1em;
+    height: 15px;
+    background: var(--gradient-button);
+    border-radius: 10px;
+    transition: 1s ease-in;
+    box-shadow: 0 0 10px  #18dcff52;
+    color: #aaa;
+}
+
+.html-level{
+    width: 0;
+}
+.css-level{
+    width: 0;
+}
+.js-level{
+    width: 0;
+}
+.react-level{
+    width: 0;
+}
+
+
+
+
+
+
+
+.writeups{
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+.writeups p{
+    margin-top: .5em;
+    font-size: 85%;
+}
+.writeups i{
+    font-size: 130%;
+    background: var(--gradient-button);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+
+}
+.writeups .heading{
+    font-weight: 700;
+}
