@@ -87,6 +87,14 @@ nav ul li a:hover{
     background-clip: text;
     color: transparent; 
 }
+.fa-bars-staggered{
+    display: none;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+
+
 .social-links ul{
     display: flex;
     align-items: center;
@@ -131,3 +139,12 @@ footer a{
 footer i{
     cursor: pointer;
 }
+footer .social-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em !important;
+}
+
+
+

@@ -15,9 +15,9 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <p onclick="window.location.href = '/'">Nelkeys.</p>
+        <div class="logo" onclick="window.location.href = '/'">
             <i class="fa-brands fa-typo3"></i>
+            <p>Nelkeys</p>
         </div>
 
         <nav><ul>
@@ -25,6 +25,8 @@
             <li><a href="#technologies">Technologies</a></li>
             <li><a href="#about-me">About me</a></li>
         </ul></nav>
+
+        <i class="fa-solid fa-bars-staggered"></i>
 
         <div class="social-links">
             <ul>
@@ -96,7 +98,7 @@
                 </div>
             </div>
 
-            <div class="cards">
+            <div class="cards rde">
                 <div class="card1">
                     <img src="assets/andrew-schultz-EAlbsTo6nuQ-unsplash.jpg" alt="">
 
@@ -140,36 +142,36 @@
         </div>
     
         <div class="tech-skills">
-            <div class="lang-holder" data-skill="HTML" data-level="80">
-                <div class="lang">
+            <div class="lang-holder progress-container" data-level="100">
+                <div class="lang outward-bar">
                     <p>HTML</p>
-                    <div class="html-level"></div>
+                    <div class="inward-bar"></div>
                 </div>
                 <p class="level"></p>
             </div>
     
-            <div class="lang-holder" data-skill="CSS" data-level="70">
-                <div class="lang">
+            <div class="lang-holder progress-container" data-level="80">
+                <div class="lang outward-bar">
                     <p>CSS</p>
-                    <div class="css-level"></div>
+                    <div class="inward-bar"></div>
                 </div>
                 <p class="level"></p>
             </div>
     
-            <div class="lang-holder" data-skill="JavaScript" data-level="85">
-                <div class="lang">
+            <div class="lang-holder progress-container" data-level="45">
+                <div class="lang outward-bar">
                     <p>JavaScript</p>
-                    <div class="js-level"></div>
+                    <div class="inward-bar"></div>
                 </div>
                 <p class="level"></p>
             </div>
     
-            <div class="lang-holder" data-skill="React" data-level="80">
-                <div class="lang">
+            <div class="lang-holder progress-container" data-level="40">
+                <div class="lang outward-bar">
                     <p>React</p>
-                    <div class="react-level"></div>
+                    <div class="inward-bar"></div>
                 </div>
-                <p class="level"></p>
+                <p class="level">58</p>
             </div>
         </div>
     </section>
@@ -185,29 +187,31 @@
         </div>
 
         <div class="writeups">
-            <div>
-                <i class="fa-brands fa-typo3"></i>
-                <p class="heading">School</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+            <div class="writeups1">
+                <div>
+                    <p class="heading"><i class="fa-brands fa-typo3"></i> &nbsp;School</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                </div>
+    
+                <div>
+                    <p class="heading"><i class="fa-brands fa-typo3"></i> &nbsp;School</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                </div>
             </div>
-
-            <div>
-                <i class="fa-brands fa-typo3"></i>
-                <p class="heading">School</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+            
+            <div class="writeups1">
+                <div>
+                    
+                    <p class="heading"><i class="fa-brands fa-typo3"></i> &nbsp;School</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                </div>
+    
+                <div>
+                    <p class="heading"><i class="fa-brands fa-typo3"></i> &nbsp;School</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                </div>
             </div>
-
-            <div>
-                <i class="fa-brands fa-typo3"></i>
-                <p class="heading">School</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-typo3"></i>
-                <p class="heading">School</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
-            </div>
+           
         </div>
 
 
@@ -224,8 +228,8 @@
 
     <footer>
         <p class="free">Feel free to contact me</p>
+
         <a href="mailto:nelsonekoh212@gmail.com">nelsonekoh212@gmail.com</a>
-        <p>Telegram: <a href="">@nelkeys</a></p>
 
         <div class="social-links">
             <ul>
@@ -238,6 +242,6 @@
 
 
 
-   <script src="/js/script.js"></script>
+   <script src="/js/script.js" type="module" defer></script>
 </body>
 </html>
