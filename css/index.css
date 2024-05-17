@@ -385,7 +385,9 @@ footer {
     .projects {
         margin: 8em 3em 2em 3em !important;
     }
-
+    .card-holder .cards .card1 img{
+        height: 15em;
+    }
 
     .technologies,
     .about-me,
